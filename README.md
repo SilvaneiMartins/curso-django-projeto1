@@ -10,6 +10,9 @@
 
 Neste curso estou aprendendo a desenvolver aplicações web com Python e Django.
 
+## Banco de dados
+
+sqlite3
 
 ## Desenvolvedor
 
