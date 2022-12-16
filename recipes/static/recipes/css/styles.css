@@ -178,7 +178,6 @@ h6 {
 
 .recipe-list-item {
     max-width: 64rem;
-    max-height: 100rem;
 }
 
 .recipe-list-item:hover {
@@ -207,6 +206,7 @@ h6 {
 }
 
 .recipe-author-item {
+    font-size: 1.2rem;
     margin-right: 1rem;
     color: var(--color-gray-4);
 }
@@ -247,6 +247,17 @@ h6 {
 
 .recipe-footer a:hover {
     filter: brightness(1.5);
+}
+
+.main-content-detail .recipe-list-item {
+    max-width: 84rem;
+    margin: 0  auto;
+}
+
+.main-content-detail .recipe-list-item:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    box-shadow: -5px 5px 10px rgb(1, 0, 0, 0.2);
 }
 
 .recipe-fotter-vermais {
