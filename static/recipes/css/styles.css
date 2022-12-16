@@ -192,6 +192,11 @@ h6 {
     padding-bottom: calc(var(--spacing-gutter-medium) / 2);
 }
 
+.recipe-title {
+    color: tomato;
+}
+
+
 .recipe-author {
     padding: 0 var(--spacing-gutter-medium);
 }

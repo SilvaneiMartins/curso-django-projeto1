@@ -4,24 +4,28 @@
     </div>
     <div class="recipe-title-container">
         <h2 class="recipe-title">
-            Lorem ipsum dolor, sit amet.
+            {{ recipe.title }}
         </h2>
     </div>
     <div class="recipe-author">
         <span class="recipe-author-item">
             <i class="fas fa-user"></i>
-            <span>Silvanei Martins</span>
+            <span>{{recipe.author.first_name}} {{recipe.author.last_name}}</span>
         </span>
 
         <span class="recipe-author-item">
             <i class="fas fa-calendar-alt"></i>
-            <span>15/12/2022 às 11:00</span>
+            <span>
+                {{recipe.created_at|date:"d/m/Y"}} às {{recipe.created_at|date:"H:i"}}
+            </span>
         </span>
 
         <span class="recipe-author-item">
             <a href="">
                 <i class="fas fa-layer-group"></i>
-                <span>Café da manhã</span>
+                <span>
+                    {{recipe.category.name}}
+                </span>
             </a>
         </span>
     </div>
